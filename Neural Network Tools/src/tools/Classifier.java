@@ -1,4 +1,4 @@
-package per.datasets;
+package tools;
 
 @FunctionalInterface
 public interface Classifier {
