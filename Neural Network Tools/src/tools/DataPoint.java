@@ -3,9 +3,9 @@ package tools;
 public class DataPoint {
 
 	private float x, y;
-	private int classification;
+	private float classification;
 	
-	public DataPoint(float x, float y, int classification) {
+	public DataPoint(float x, float y, float classification) {
 		this.x = x;
 		this.y = y;
 		this.classification = classification;
@@ -25,7 +25,7 @@ public class DataPoint {
 		return y;
 	}
 
-	public int getClassification() {
+	public float getClassification() {
 		return classification;
 	}
 	
